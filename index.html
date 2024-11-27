@@ -8,12 +8,12 @@
 </head>
 <body>
     <header>
-        <div class="2nd-header">
+        <div id="second">
             <h1>JANE BLOGLIFE</h1>
             <h2>Welcome to the blog of <span id="Jane">Jane's world</span></h2>
 
         </div>
-        <div class="3rd-header">
+        <div id="third">
             <p>Jane's</p>
             <h3 id="fashionblog">FASHION BLOG</h3>
             <button>SUBSCRIBE</button>
@@ -21,6 +21,7 @@
         </div>
 
     </header>
+    <div class="content-container"> 
     <main id="main">
         <div class="Hat">
             <h2 id="title">
@@ -83,7 +84,7 @@ Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipis
        
         
     </main>
-    <section id="adverts">
+     <section id="adverts">
         <div id="Avatargirl">
             <img src="./Blog Pictures/avatar_girl2.jpg" alt="Avatargirl">
             <caption><h4>My Name</h4>
@@ -92,14 +93,23 @@ Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipis
         </div>
         <div id="PopularPosts">
             <h4 id="Popular">Popular Posts</h4>
-            <img src="./Blog Pictures/avatar_smoke (1).jpg" alt="">
-            <caption>Denim</caption>
-            <img src="./Blog Pictures/avatar_smoke.jpg" alt="">
-            <caption>Sweater</caption>
-             <img src="./Blog Pictures/jeans.jpg" alt="">
-            <caption>Workshop</caption>
-             <img src="./Blog Pictures/avatar_smoke.jpg" alt="">
-            <caption>Trends</caption>
+            <div class="post">
+                <img src="./Blog Pictures/avatar_smoke (1).jpg" alt="Denim">
+                <caption>Denim</caption>
+            </div>
+            <div class="post">
+                <img src="./Blog Pictures/avatar_smoke.jpg" alt="Sweater">
+                <caption>Sweater</caption>
+            </div>
+            <div class="post">
+                <img src="./Blog Pictures/jeans.jpg" alt="Workshop">
+                <caption>Workshop</caption>
+            </div>
+            <div class="post">
+                <img src="./Blog Pictures/avatar_smoke.jpg" alt="Trends">
+                <caption>Trends</caption>
+            </div>
+        </div>
             
         </div >
         <div id="Advertise">
@@ -145,6 +155,9 @@ Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipis
         </div>
 
     </section>
+</div>
+   
+   
     <footer>
         <button id="footer">To the top</button>
         <p2>Powered by w3.css</p2>

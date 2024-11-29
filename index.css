@@ -197,13 +197,13 @@ hr {
 .post-cards #text-container {
   text-align: left;
 }
-.post-cards #buttons-container {
+.post-cards #button {
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-#buttons-container .like {
+#button .like {
   border: 1px solid var(--footer-color);
   display: flex;
   justify-content: center;
@@ -214,11 +214,11 @@ hr {
   font-weight: bold;
   cursor: pointer;
 }
-#buttons-container .like:hover {
+#button .like:hover {
   background: var(--terrtiary-color);
   border: 1px solid transparent;
 }
-#buttons-container .reply {
+#button .reply {
   width: 20%;
   border: 1px solid var(--primary-color);
   display: flex;
@@ -231,13 +231,13 @@ hr {
   font-weight: bold;
   cursor: pointer;
 }
-#buttons-container .reply .number-holder {
+#button .reply .number-holder {
   background: var(--secondary-color);
   color: var(--primary-color);
   padding: 5px 10px;
   font-weight: lighter;
 }
-#buttons-container .reply:hover {
+#button .reply:hover {
   background: #d9d9d9;
   color: var(--primary-color);
   border: 1px solid transparent;
@@ -251,7 +251,7 @@ footer {
   padding: 40px;
   gap: 20px;
 }
-footer #scroll-up {
+footer #scrolling {
   border: 1px solid black;
   background: var(--primary-color);
   color: var(--secondary-color);
@@ -261,21 +261,21 @@ footer #scroll-up {
   justify-content: center;
   align-items: center;
 }
-#scroll-up svg {
+#scrolling svg {
   fill: var(--secondary-color);
   font-weight: bold;
 }
-#scroll-up:hover {
+#scrolling:hover {
   background: var(--terrtiary-color);
   border: 1px solid transparent;
 }
-#scroll-up:hover span {
+#scrolling:hover span {
   color: var(--primary-color);
 }
-#scroll-up:hover svg {
+#scrolling:hover svg {
   fill: var(--primary-color);
 }
-.footer-link,
+.linkfoot,
 a {
   color: var(--secondary-color);
 }
@@ -293,7 +293,7 @@ aside {
   align-items: center;
   gap: 40px;
 }
-aside .aside-cards {
+aside .sidecards {
   width: 90%;
 }
 #avatar .avatar-img {
@@ -313,7 +313,7 @@ aside .aside-cards {
 .user-info h3 {
   margin-bottom: 20px;
 }
-#advertise-title {
+#title-advert {
   width: 100%;
   padding: 15px;
   background: var(--primary-color);
@@ -472,7 +472,7 @@ button[type="button"]:hover {
     align-items: flex-start;
     gap: 30px;
   }
-  aside .aside-cards {
+  aside .sidecards {
     width: 100%;
   }
   #tags-container {

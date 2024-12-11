@@ -519,3 +519,35 @@ button[type="button"]:hover {
     margin-top: 10px;
   }
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem; /* Smaller for mobile */
+  }}
+  button {
+  width: 100%;  /* Full width on small devices */
+  max-width: 200px;  /* Limit size on larger screens */
+}
+@media (max-width: 768px) {
+  main {
+    flex-direction: column; /* Stack main content vertically on smaller screens */
+  }
+
+  aside {
+    width: 100%; /* Full width on smaller screens */
+    padding: 0;
+  }
+  
+  .related-content-holder {
+    width: 100%;
+    gap: 20px;
+  }
+  
+  #gallery .image-holder {
+    flex-direction: column;
+    gap: 5px;
+  }
+  
+  #gallery img {
+    width: 100%; /* Full width for mobile */
+  }
+}
